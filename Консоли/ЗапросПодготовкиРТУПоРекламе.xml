@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СодержаниеУслуги</dataPath>
+			<field>СодержаниеУслуги</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетРасходовНУ</dataPath>
+			<field>СчетРасходовНУ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетПокупателю</dataPath>
+			<field>СчетПокупателю</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УсловиеАвтоматическойСкидки</dataPath>
+			<field>УсловиеАвтоматическойСкидки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетДоходовБУ</dataPath>
+			<field>СчетДоходовБУ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоБУ</dataPath>
+			<field>СубконтоБУ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьУслуг</dataPath>
+			<field>СтоимостьУслуг</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентСкидкиНаценки</dataPath>
+			<field>ПроцентСкидкиНаценки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродажнаяСтоимость</dataPath>
+			<field>ПродажнаяСтоимость</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказПокупателя</dataPath>
+			<field>ЗаказПокупателя</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетДоходовНУ</dataPath>
+			<field>СчетДоходовНУ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоНУ</dataPath>
+			<field>СубконтоНУ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначениеУсловияАвтоматическойСкидки</dataPath>
+			<field>ЗначениеУсловияАвтоматическойСкидки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетРасходовБУ</dataPath>
+			<field>СчетРасходовБУ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентАвтоматическихСкидок</dataPath>
+			<field>ПроцентАвтоматическихСкидок</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Содержание</dataPath>
+			<field>Содержание</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СсылкаНаПту</dataPath>
+			<field>СсылкаНаПту</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на пту</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Цена</dataPath>
+			<field>Цена</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаНДС</dataPath>
+			<field>СуммаНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма НДС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтавкаНДС</dataPath>
+			<field>СтавкаНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ставка НДС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сумма</dataPath>
+			<field>Сумма</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаПрод</dataPath>
+			<field>СуммаПрод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма прод</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СсылкаНаРТУ</dataPath>
+			<field>СсылкаНаРТУ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на РТУ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаПокуп</dataPath>
+			<field>СуммаПокуп</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма покуп</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	зфРеклама.Номенклатура,
+	зфРеклама.СчетПокупателю,
+	зфРеклама.СодержаниеУслуги,
+	зфРеклама.СтоимостьУслуг,
+	зфРеклама.ПродажнаяСтоимость,
+	ЕСТЬNULL(РеализацияТоваровУслугУслуги.Сумма, зфРеклама.ПродажнаяСтоимость) КАК Сумма,
+	ЕСТЬNULL(РеализацияТоваровУслугУслуги.СтавкаНДС, зфРеклама.Номенклатура.СтавкаНДС) КАК СтавкаНДС,
+	ЕСТЬNULL(РеализацияТоваровУслугУслуги.СуммаНДС, 0) КАК СуммаНДС,
+	ЕСТЬNULL(РеализацияТоваровУслугУслуги.Цена, зфРеклама.ПродажнаяСтоимость) КАК Цена,
+	ЕСТЬNULL(РеализацияТоваровУслугУслуги.Количество, 1) КАК Количество,
+	РеализацияТоваровУслугУслуги.СчетДоходовБУ,
+	РеализацияТоваровУслугУслуги.СчетРасходовБУ,
+	РеализацияТоваровУслугУслуги.СубконтоБУ,
+	РеализацияТоваровУслугУслуги.СчетДоходовНУ,
+	РеализацияТоваровУслугУслуги.Содержание,
+	РеализацияТоваровУслугУслуги.СчетРасходовНУ,
+	РеализацияТоваровУслугУслуги.СубконтоНУ,
+	РеализацияТоваровУслугУслуги.ПроцентСкидкиНаценки,
+	РеализацияТоваровУслугУслуги.ЗаказПокупателя,
+	РеализацияТоваровУслугУслуги.ЗначениеУсловияАвтоматическойСкидки,
+	РеализацияТоваровУслугУслуги.ПроцентАвтоматическихСкидок,
+	РеализацияТоваровУслугУслуги.УсловиеАвтоматическойСкидки,
+	ВЫРАЗИТЬ(РеализацияТоваровУслугУслуги.Ссылка КАК Документ.РеализацияТоваровУслуг) КАК СсылкаНаРТУ,
+	зфРеклама.Ссылка КАК СсылкаНаПту,
+	зфРеклама.СтоимостьУслуг КАК СуммаПокуп,
+	ЕСТЬNULL(РеализацияТоваровУслугУслуги.Сумма, зфРеклама.ПродажнаяСтоимость) КАК СуммаПрод
+ИЗ
+	Справочник.зфРеклама КАК зфРеклама
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.РеализацияТоваровУслуг.Услуги КАК РеализацияТоваровУслугУслуги
+		ПО зфРеклама.Номенклатура = РеализацияТоваровУслугУслуги.Номенклатура
+			И зфРеклама.Организация = РеализацияТоваровУслугУслуги.Ссылка.Организация
+ГДЕ
+	зфРеклама.Организация = &amp;Организация
+	И зфРеклама.СчетПокупателю.Дата МЕЖДУ &amp;НачалоПериода И &amp;ОкончаниеПериода</query>
+	</dataSet>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ОкончаниеПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Окончание периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Организации.ПустаяСсылка</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Организация</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>
