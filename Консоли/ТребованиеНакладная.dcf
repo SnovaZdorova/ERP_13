@@ -1,0 +1,369 @@
+﻿{"#",e603c0f2-92fb-4d47-8f38-a44a381cf235,
+{1,
+{8,
+{0,"ИмяОтчета",
+{"Pattern"},"",0},
+{1,"СхемаКомпоновкиДанных",
+{"Pattern"},"",0},
+{2,"Автофиксация",
+{"Pattern",
+{"B"}
+},"",0},
+{3,"ПроверятьДоступностьПолей",
+{"Pattern",
+{"B"}
+},"",0},
+{4,"Настройки",
+{"Pattern"},"",0},
+{5,"НастройкаДляЗагрузки",
+{"Pattern"},"",0},
+{6,"СохранятьНастройкиАвтоматически",
+{"Pattern"},"",0},
+{7,"КоординатыТекущейСтроки",
+{"Pattern"},"",0}
+},
+{2,8,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,
+{1,1,
+{2,0,8,
+{"S","Отчеты"},
+{"#",dc29f857-fc4f-4cd1-a7ca-e8e71f3955b3,
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTY2hl
+bWFGaWxlIHhtbG5zPSIiIHhtbG5zOnhzPSJodHRwOi8vd3d3LnczLm9yZy8yMDAx
+L1hNTFNjaGVtYSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hN
+TFNjaGVtYS1pbnN0YW5jZSI+DQoJPGRhdGFDb21wb3NpdGlvblNjaGVtYSB4bWxu
+cz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9uLXN5c3RlbS9z
+Y2hlbWEiPg0KCQk8c2V0dGluZ3NWYXJpYW50Pg0KCQkJPG5hbWUgeG1sbnM9Imh0
+dHA6Ly92OC4xYy5ydS84LjEvZGF0YS1jb21wb3NpdGlvbi1zeXN0ZW0vc2V0dGlu
+Z3MiPtCe0YHQvdC+0LLQvdC+0Lk8L25hbWU+DQoJCQk8cHJlc2VudGF0aW9uIHht
+bG5zPSJodHRwOi8vdjguMWMucnUvOC4xL2RhdGEtY29tcG9zaXRpb24tc3lzdGVt
+L3NldHRpbmdzIiB4c2k6dHlwZT0ieHM6c3RyaW5nIj7QntGB0L3QvtCy0L3QvtC5
+PC9wcmVzZW50YXRpb24+DQoJCTwvc2V0dGluZ3NWYXJpYW50Pg0KCTwvZGF0YUNv
+bXBvc2l0aW9uU2NoZW1hPg0KPC9TY2hlbWFGaWxlPg==},
+{0,
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTZXR0
+aW5ncyB4bWxucz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9u
+LXN5c3RlbS9zZXR0aW5ncyIgeG1sbnM6ZGNzY29yPSJodHRwOi8vdjguMWMucnUv
+OC4xL2RhdGEtY29tcG9zaXRpb24tc3lzdGVtL2NvcmUiIHhtbG5zOnN0eWxlPSJo
+dHRwOi8vdjguMWMucnUvOC4xL2RhdGEvdWkvc3R5bGUiIHhtbG5zOnN5cz0iaHR0
+cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2ZvbnRzL3N5c3RlbSIgeG1sbnM6djg9
+Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS9jb3JlIiB4bWxuczp2OHVpPSJodHRw
+Oi8vdjguMWMucnUvOC4xL2RhdGEvdWkiIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFj
+LnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4
+LjFjLnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93aW5kb3dzIiB4bWxuczp4cz0iaHR0
+cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDov
+L3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiLz4=},
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTY2hl
+bWFGaWxlIHhtbG5zPSIiIHhtbG5zOnhzPSJodHRwOi8vd3d3LnczLm9yZy8yMDAx
+L1hNTFNjaGVtYSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hN
+TFNjaGVtYS1pbnN0YW5jZSI+DQoJPGRhdGFDb21wb3NpdGlvblNjaGVtYSB4bWxu
+cz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9uLXN5c3RlbS9z
+Y2hlbWEiLz4NCjwvU2NoZW1hRmlsZT4=}
+}
+},
+{"B",0},
+{"B",1},
+{"#",acf6192e-81ca-46ef-93a6-5a6968b78663,
+{9,
+{2,
+{0,"Имя",
+{"Pattern"},"",0},
+{1,"Настройки",
+{"Pattern"},"",0}
+},
+{2,2,0,0,1,1,
+{1,1,
+{2,0,2,
+{"S","Основная"},
+{"#",e199ca70-93cf-46ce-a54b-6edc88c3a296,
+{#base64:AQE1AAAAAAAAAO+7v3siIyIsM2M3MmZmNTYtN2UwNC00Mzg1LWJjMDMtOTJkNGJk
+NmMzNTFjLA0KezB9DQp9AAAAADYCAAAAAAAA77u/PD94bWwgdmVyc2lvbj0iMS4w
+IiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTZXR0aW5ncyB4bWxucz0iaHR0cDovL3Y4
+LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9uLXN5c3RlbS9zZXR0aW5ncyIgeG1s
+bnM6ZGNzY29yPSJodHRwOi8vdjguMWMucnUvOC4xL2RhdGEtY29tcG9zaXRpb24t
+c3lzdGVtL2NvcmUiIHhtbG5zOnN0eWxlPSJodHRwOi8vdjguMWMucnUvOC4xL2Rh
+dGEvdWkvc3R5bGUiIHhtbG5zOnN5cz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRh
+L3VpL2ZvbnRzL3N5c3RlbSIgeG1sbnM6djg9Imh0dHA6Ly92OC4xYy5ydS84LjEv
+ZGF0YS9jb3JlIiB4bWxuczp2OHVpPSJodHRwOi8vdjguMWMucnUvOC4xL2RhdGEv
+dWkiIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2NvbG9y
+cy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2Nv
+bG9ycy93aW5kb3dzIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9Y
+TUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxT
+Y2hlbWEtaW5zdGFuY2UiLz4=}
+},0}
+},1,0},
+{0,0}
+}
+},
+{"S","Основная"},
+{"B",1},
+{"#",51e7a0d2-530b-11d4-b98a-008048da3034,
+{2,
+{"N",0},
+{"N",0}
+}
+},1,
+{1,1,
+{2,1,7,
+{"S","ОтчетПоТребованиям"},
+{"#",dc29f857-fc4f-4cd1-a7ca-e8e71f3955b3,
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTY2hl
+bWFGaWxlIHhtbG5zPSIiIHhtbG5zOnhzPSJodHRwOi8vd3d3LnczLm9yZy8yMDAx
+L1hNTFNjaGVtYSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hN
+TFNjaGVtYS1pbnN0YW5jZSI+DQoJPGRhdGFDb21wb3NpdGlvblNjaGVtYSB4bWxu
+cz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9uLXN5c3RlbS9z
+Y2hlbWEiPg0KCQk8ZGF0YVNvdXJjZT4NCgkJCTxuYW1lPtCY0YHRgtC+0YfQvdC4
+0LrQlNCw0L3QvdGL0YUxPC9uYW1lPg0KCQkJPGRhdGFTb3VyY2VUeXBlPkxvY2Fs
+PC9kYXRhU291cmNlVHlwZT4NCgkJPC9kYXRhU291cmNlPg0KCQk8ZGF0YVNldCB4
+c2k6dHlwZT0iRGF0YVNldFF1ZXJ5Ij4NCgkJCTxuYW1lPtCd0LDQsdC+0YDQlNCw
+0L3QvdGL0YUxPC9uYW1lPg0KCQkJPGZpZWxkIHhzaTp0eXBlPSJEYXRhU2V0Rmll
+bGRGaWVsZCI+DQoJCQkJPGRhdGFQYXRoPtCf0L7QtNGA0LDQt9C00LXQu9C10L3Q
+uNC1PC9kYXRhUGF0aD4NCgkJCQk8ZmllbGQ+0J/QvtC00YDQsNC30LTQtdC70LXQ
+vdC40LU8L2ZpZWxkPg0KCQkJPC9maWVsZD4NCgkJCTxmaWVsZCB4c2k6dHlwZT0i
+RGF0YVNldEZpZWxkRmllbGQiPg0KCQkJCTxkYXRhUGF0aD7Qn9C+0LTRgNCw0LfQ
+tNC10LvQtdC90LjQtdCe0YDQs9Cw0L3QuNC30LDRhtC40Lg8L2RhdGFQYXRoPg0K
+CQkJCTxmaWVsZD7Qn9C+0LTRgNCw0LfQtNC10LvQtdC90LjQtdCe0YDQs9Cw0L3Q
+uNC30LDRhtC40Lg8L2ZpZWxkPg0KCQkJPC9maWVsZD4NCgkJCTxmaWVsZCB4c2k6
+dHlwZT0iRGF0YVNldEZpZWxkRmllbGQiPg0KCQkJCTxkYXRhUGF0aD7QmtC+0LvQ
+uNGH0LXRgdGC0LLQvjwvZGF0YVBhdGg+DQoJCQkJPGZpZWxkPtCa0L7Qu9C40YfQ
+tdGB0YLQstC+PC9maWVsZD4NCgkJCTwvZmllbGQ+DQoJCQk8ZmllbGQgeHNpOnR5
+cGU9IkRhdGFTZXRGaWVsZEZpZWxkIj4NCgkJCQk8ZGF0YVBhdGg+0KHRgtC+0LjQ
+vNC+0YHRgtGMPC9kYXRhUGF0aD4NCgkJCQk8ZmllbGQ+0KHRgtC+0LjQvNC+0YHR
+gtGMPC9maWVsZD4NCgkJCTwvZmllbGQ+DQoJCQk8ZmllbGQgeHNpOnR5cGU9IkRh
+dGFTZXRGaWVsZEZpZWxkIj4NCgkJCQk8ZGF0YVBhdGg+0JrQvtC80LzQtdC90YLQ
+sNGA0LjQuTwvZGF0YVBhdGg+DQoJCQkJPGZpZWxkPtCa0L7QvNC80LXQvdGC0LDR
+gNC40Lk8L2ZpZWxkPg0KCQkJCTx0aXRsZSB4bWxuczpkNXAxPSJodHRwOi8vdjgu
+MWMucnUvOC4xL2RhdGEvY29yZSIgeHNpOnR5cGU9ImQ1cDE6TG9jYWxTdHJpbmdU
+eXBlIj4NCgkJCQkJPGQ1cDE6aXRlbT4NCgkJCQkJCTxkNXAxOmxhbmc+cnU8L2Q1
+cDE6bGFuZz4NCgkJCQkJCTxkNXAxOmNvbnRlbnQ+0JrQvtC80LzQtdC90YLQsNGA
+0LjQuTwvZDVwMTpjb250ZW50Pg0KCQkJCQk8L2Q1cDE6aXRlbT4NCgkJCQk8L3Rp
+dGxlPg0KCQkJPC9maWVsZD4NCgkJCTxmaWVsZCB4c2k6dHlwZT0iRGF0YVNldEZp
+ZWxkRmllbGQiPg0KCQkJCTxkYXRhUGF0aD7QndC+0LzQtdC90LrQu9Cw0YLRg9GA
+0LA8L2RhdGFQYXRoPg0KCQkJCTxmaWVsZD7QndC+0LzQtdC90LrQu9Cw0YLRg9GA
+0LA8L2ZpZWxkPg0KCQkJPC9maWVsZD4NCgkJCTxmaWVsZCB4c2k6dHlwZT0iRGF0
+YVNldEZpZWxkRmllbGQiPg0KCQkJCTxkYXRhUGF0aD7QlNC+0LrRg9C80LXQvdGC
+PC9kYXRhUGF0aD4NCgkJCQk8ZmllbGQ+0JTQvtC60YPQvNC10L3RgjwvZmllbGQ+
+DQoJCQkJPHRpdGxlIHhtbG5zOmQ1cDE9Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0
+YS9jb3JlIiB4c2k6dHlwZT0iZDVwMTpMb2NhbFN0cmluZ1R5cGUiPg0KCQkJCQk8
+ZDVwMTppdGVtPg0KCQkJCQkJPGQ1cDE6bGFuZz5ydTwvZDVwMTpsYW5nPg0KCQkJ
+CQkJPGQ1cDE6Y29udGVudD7QlNC+0LrRg9C80LXQvdGCPC9kNXAxOmNvbnRlbnQ+
+DQoJCQkJCTwvZDVwMTppdGVtPg0KCQkJCTwvdGl0bGU+DQoJCQk8L2ZpZWxkPg0K
+CQkJPGRhdGFTb3VyY2U+0JjRgdGC0L7Rh9C90LjQutCU0LDQvdC90YvRhTE8L2Rh
+dGFTb3VyY2U+DQoJCQk8cXVlcnk+0JLQq9CR0KDQkNCi0KwKCdCi0YDQtdCx0L7Q
+stCw0L3QuNC10J3QsNC60LvQsNC00L3QsNGP0JzQsNGC0LXRgNC40LDQu9GLLtCh
+0YHRi9C70LrQsC7Qn9C+0LTRgNCw0LfQtNC10LvQtdC90LjQtSwKCdCi0YDQtdCx
+0L7QstCw0L3QuNC10J3QsNC60LvQsNC00L3QsNGP0JzQsNGC0LXRgNC40LDQu9GL
+LtCh0YHRi9C70LrQsC7Qn9C+0LTRgNCw0LfQtNC10LvQtdC90LjQtdCe0YDQs9Cw
+0L3QuNC30LDRhtC40LgsCgnQotGA0LXQsdC+0LLQsNC90LjQtdCd0LDQutC70LDQ
+tNC90LDRj9Cc0LDRgtC10YDQuNCw0LvRiy7QodGB0YvQu9C60LAu0KHRgdGL0LvQ
+utCwINCa0JDQmiDQlNC+0LrRg9C80LXQvdGCLAoJ0JLQq9Cg0JDQl9CY0KLQrCjQ
+otGA0LXQsdC+0LLQsNC90LjQtdCd0LDQutC70LDQtNC90LDRj9Cc0LDRgtC10YDQ
+uNCw0LvRiy7QodGB0YvQu9C60LAu0JrQvtC80LzQtdC90YLQsNGA0LjQuSDQmtCQ
+0Jog0KHQotCg0J7QmtCQKDIwMCkpINCa0JDQmiDQmtC+0LzQvNC10L3RgtCw0YDQ
+uNC5LAoJ0KLRgNC10LHQvtCy0LDQvdC40LXQndCw0LrQu9Cw0LTQvdCw0Y/QnNCw
+0YLQtdGA0LjQsNC70Ysu0JrQvtC70LjRh9C10YHRgtCy0L4sCgnQndCU0KHQn9Cw
+0YDRgtC40LjQotC+0LLQsNGA0L7Qsi7QodGC0L7QuNC80L7RgdGC0YwsCgnQotGA
+0LXQsdC+0LLQsNC90LjQtdCd0LDQutC70LDQtNC90LDRj9Cc0LDRgtC10YDQuNCw
+0LvRiy7QndC+0LzQtdC90LrQu9Cw0YLRg9GA0LAK0JjQlwoJ0JTQvtC60YPQvNC1
+0L3Rgi7QotGA0LXQsdC+0LLQsNC90LjQtdCd0LDQutC70LDQtNC90LDRjy7QnNCw
+0YLQtdGA0LjQsNC70Ysg0JrQkNCaINCi0YDQtdCx0L7QstCw0L3QuNC10J3QsNC6
+0LvQsNC00L3QsNGP0JzQsNGC0LXRgNC40LDQu9GLCgkJ0JLQndCj0KLQoNCV0J3Q
+ndCV0JUg0KHQntCV0JTQmNCd0JXQndCY0JUg0KDQtdCz0LjRgdGC0YDQndCw0LrQ
+vtC/0LvQtdC90LjRjy7QndCU0KHQn9Cw0YDRgtC40LjQotC+0LLQsNGA0L7QsiDQ
+mtCQ0Jog0J3QlNCh0J/QsNGA0YLQuNC40KLQvtCy0LDRgNC+0LIKCQnQn9CeINCi
+0YDQtdCx0L7QstCw0L3QuNC10J3QsNC60LvQsNC00L3QsNGP0JzQsNGC0LXRgNC4
+0LDQu9GLLtCh0YHRi9C70LrQsCA9INCd0JTQodCf0LDRgNGC0LjQuNCi0L7QstCw
+0YDQvtCyLtCg0LXQs9C40YHRgtGA0LDRgtC+0YAKCQkJ0Jgg0KLRgNC10LHQvtCy
+0LDQvdC40LXQndCw0LrQu9Cw0LTQvdCw0Y/QnNCw0YLQtdGA0LjQsNC70Ysu0J3Q
+vtC80LXQvdC60LvQsNGC0YPRgNCwID0g0J3QlNCh0J/QsNGA0YLQuNC40KLQvtCy
+0LDRgNC+0LIu0J3QvtC80LXQvdC60LvQsNGC0YPRgNCwCgkJCdCYINCi0YDQtdCx
+0L7QstCw0L3QuNC10J3QsNC60LvQsNC00L3QsNGP0JzQsNGC0LXRgNC40LDQu9GL
+LtCh0LXRgNC40Y/QndC+0LzQtdC90LrQu9Cw0YLRg9GA0YsgPSDQndCU0KHQn9Cw
+0YDRgtC40LjQotC+0LLQsNGA0L7Qsi7QodC10YDQuNGP0J3QvtC80LXQvdC60LvQ
+sNGC0YPRgNGLCtCT0JTQlQoJ0KLRgNC10LHQvtCy0LDQvdC40LXQndCw0LrQu9Cw
+0LTQvdCw0Y/QnNCw0YLQtdGA0LjQsNC70Ysu0KHRgdGL0LvQutCwLtCf0YDQvtCy
+0LXQtNC10L08L3F1ZXJ5Pg0KCQk8L2RhdGFTZXQ+DQoJCTx0b3RhbEZpZWxkPg0K
+CQkJPGRhdGFQYXRoPtCa0L7Qu9C40YfQtdGB0YLQstC+PC9kYXRhUGF0aD4NCgkJ
+CTxleHByZXNzaW9uPtCh0YPQvNC80LAo0JrQvtC70LjRh9C10YHRgtCy0L4pPC9l
+eHByZXNzaW9uPg0KCQk8L3RvdGFsRmllbGQ+DQoJCTx0b3RhbEZpZWxkPg0KCQkJ
+PGRhdGFQYXRoPtCh0YLQvtC40LzQvtGB0YLRjDwvZGF0YVBhdGg+DQoJCQk8ZXhw
+cmVzc2lvbj7QodGD0LzQvNCwKNCh0YLQvtC40LzQvtGB0YLRjCk8L2V4cHJlc3Np
+b24+DQoJCTwvdG90YWxGaWVsZD4NCgkJPHNldHRpbmdzVmFyaWFudD4NCgkJCTxu
+YW1lIHhtbG5zPSJodHRwOi8vdjguMWMucnUvOC4xL2RhdGEtY29tcG9zaXRpb24t
+c3lzdGVtL3NldHRpbmdzIj7QntGB0L3QvtCy0L3QvtC5PC9uYW1lPg0KCQkJPHBy
+ZXNlbnRhdGlvbiB4bWxucz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBv
+c2l0aW9uLXN5c3RlbS9zZXR0aW5ncyIgeHNpOnR5cGU9InhzOnN0cmluZyI+0J7R
+gdC90L7QstC90L7QuTwvcHJlc2VudGF0aW9uPg0KCQk8L3NldHRpbmdzVmFyaWFu
+dD4NCgk8L2RhdGFDb21wb3NpdGlvblNjaGVtYT4NCjwvU2NoZW1hRmlsZT4=},
+{0,
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTZXR0
+aW5ncyB4bWxucz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9u
+LXN5c3RlbS9zZXR0aW5ncyIgeG1sbnM6ZGNzY29yPSJodHRwOi8vdjguMWMucnUv
+OC4xL2RhdGEtY29tcG9zaXRpb24tc3lzdGVtL2NvcmUiIHhtbG5zOnN0eWxlPSJo
+dHRwOi8vdjguMWMucnUvOC4xL2RhdGEvdWkvc3R5bGUiIHhtbG5zOnN5cz0iaHR0
+cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2ZvbnRzL3N5c3RlbSIgeG1sbnM6djg9
+Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS9jb3JlIiB4bWxuczp2OHVpPSJodHRw
+Oi8vdjguMWMucnUvOC4xL2RhdGEvdWkiIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFj
+LnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4
+LjFjLnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93aW5kb3dzIiB4bWxuczp4cz0iaHR0
+cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDov
+L3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPg0KCTxzZWxlY3Rp
+b24+DQoJCTxpdGVtIHhzaTp0eXBlPSJTZWxlY3RlZEl0ZW1GaWVsZCI+DQoJCQk8
+ZmllbGQ+0JrQvtC70LjRh9C10YHRgtCy0L48L2ZpZWxkPg0KCQk8L2l0ZW0+DQoJ
+CTxpdGVtIHhzaTp0eXBlPSJTZWxlY3RlZEl0ZW1GaWVsZCI+DQoJCQk8ZmllbGQ+
+0KHRgtC+0LjQvNC+0YHRgtGMPC9maWVsZD4NCgkJPC9pdGVtPg0KCTwvc2VsZWN0
+aW9uPg0KCTxpdGVtIHhzaTp0eXBlPSJTdHJ1Y3R1cmVJdGVtR3JvdXAiPg0KCQk8
+Z3JvdXBJdGVtcz4NCgkJCTxpdGVtIHhzaTp0eXBlPSJHcm91cEl0ZW1GaWVsZCI+
+DQoJCQkJPGZpZWxkPtCf0L7QtNGA0LDQt9C00LXQu9C10L3QuNC1PC9maWVsZD4N
+CgkJCQk8Z3JvdXBUeXBlPkl0ZW1zPC9ncm91cFR5cGU+DQoJCQkJPHBlcmlvZEFk
+ZGl0aW9uVHlwZT5Ob25lPC9wZXJpb2RBZGRpdGlvblR5cGU+DQoJCQkJPHBlcmlv
+ZEFkZGl0aW9uQmVnaW4geHNpOnR5cGU9InhzOmRhdGVUaW1lIj4wMDAxLTAxLTAx
+VDAwOjAwOjAwPC9wZXJpb2RBZGRpdGlvbkJlZ2luPg0KCQkJCTxwZXJpb2RBZGRp
+dGlvbkVuZCB4c2k6dHlwZT0ieHM6ZGF0ZVRpbWUiPjAwMDEtMDEtMDFUMDA6MDA6
+MDA8L3BlcmlvZEFkZGl0aW9uRW5kPg0KCQkJPC9pdGVtPg0KCQk8L2dyb3VwSXRl
+bXM+DQoJCTxvcmRlcj4NCgkJCTxpdGVtIHhzaTp0eXBlPSJPcmRlckl0ZW1BdXRv
+Ii8+DQoJCTwvb3JkZXI+DQoJCTxzZWxlY3Rpb24+DQoJCQk8aXRlbSB4c2k6dHlw
+ZT0iU2VsZWN0ZWRJdGVtQXV0byIvPg0KCQk8L3NlbGVjdGlvbj4NCgkJPGl0ZW0g
+eHNpOnR5cGU9IlN0cnVjdHVyZUl0ZW1Hcm91cCI+DQoJCQk8Z3JvdXBJdGVtcz4N
+CgkJCQk8aXRlbSB4c2k6dHlwZT0iR3JvdXBJdGVtRmllbGQiPg0KCQkJCQk8Zmll
+bGQ+0JTQvtC60YPQvNC10L3RgjwvZmllbGQ+DQoJCQkJCTxncm91cFR5cGU+SXRl
+bXM8L2dyb3VwVHlwZT4NCgkJCQkJPHBlcmlvZEFkZGl0aW9uVHlwZT5Ob25lPC9w
+ZXJpb2RBZGRpdGlvblR5cGU+DQoJCQkJCTxwZXJpb2RBZGRpdGlvbkJlZ2luIHhz
+aTp0eXBlPSJ4czpkYXRlVGltZSI+MDAwMS0wMS0wMVQwMDowMDowMDwvcGVyaW9k
+QWRkaXRpb25CZWdpbj4NCgkJCQkJPHBlcmlvZEFkZGl0aW9uRW5kIHhzaTp0eXBl
+PSJ4czpkYXRlVGltZSI+MDAwMS0wMS0wMVQwMDowMDowMDwvcGVyaW9kQWRkaXRp
+b25FbmQ+DQoJCQkJPC9pdGVtPg0KCQkJPC9ncm91cEl0ZW1zPg0KCQkJPG9yZGVy
+Pg0KCQkJCTxpdGVtIHhzaTp0eXBlPSJPcmRlckl0ZW1BdXRvIi8+DQoJCQk8L29y
+ZGVyPg0KCQkJPHNlbGVjdGlvbj4NCgkJCQk8aXRlbSB4c2k6dHlwZT0iU2VsZWN0
+ZWRJdGVtQXV0byIvPg0KCQkJPC9zZWxlY3Rpb24+DQoJCQk8aXRlbSB4c2k6dHlw
+ZT0iU3RydWN0dXJlSXRlbUdyb3VwIj4NCgkJCQk8Z3JvdXBJdGVtcz4NCgkJCQkJ
+PGl0ZW0geHNpOnR5cGU9Ikdyb3VwSXRlbUZpZWxkIj4NCgkJCQkJCTxmaWVsZD7Q
+ndC+0LzQtdC90LrQu9Cw0YLRg9GA0LA8L2ZpZWxkPg0KCQkJCQkJPGdyb3VwVHlw
+ZT5JdGVtczwvZ3JvdXBUeXBlPg0KCQkJCQkJPHBlcmlvZEFkZGl0aW9uVHlwZT5O
+b25lPC9wZXJpb2RBZGRpdGlvblR5cGU+DQoJCQkJCQk8cGVyaW9kQWRkaXRpb25C
+ZWdpbiB4c2k6dHlwZT0ieHM6ZGF0ZVRpbWUiPjAwMDEtMDEtMDFUMDA6MDA6MDA8
+L3BlcmlvZEFkZGl0aW9uQmVnaW4+DQoJCQkJCQk8cGVyaW9kQWRkaXRpb25FbmQg
+eHNpOnR5cGU9InhzOmRhdGVUaW1lIj4wMDAxLTAxLTAxVDAwOjAwOjAwPC9wZXJp
+b2RBZGRpdGlvbkVuZD4NCgkJCQkJPC9pdGVtPg0KCQkJCTwvZ3JvdXBJdGVtcz4N
+CgkJCQk8b3JkZXI+DQoJCQkJCTxpdGVtIHhzaTp0eXBlPSJPcmRlckl0ZW1BdXRv
+Ii8+DQoJCQkJPC9vcmRlcj4NCgkJCQk8c2VsZWN0aW9uPg0KCQkJCQk8aXRlbSB4
+c2k6dHlwZT0iU2VsZWN0ZWRJdGVtQXV0byIvPg0KCQkJCTwvc2VsZWN0aW9uPg0K
+CQkJPC9pdGVtPg0KCQk8L2l0ZW0+DQoJPC9pdGVtPg0KPC9TZXR0aW5ncz4=},
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTY2hl
+bWFGaWxlIHhtbG5zPSIiIHhtbG5zOnhzPSJodHRwOi8vd3d3LnczLm9yZy8yMDAx
+L1hNTFNjaGVtYSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hN
+TFNjaGVtYS1pbnN0YW5jZSI+DQoJPGRhdGFDb21wb3NpdGlvblNjaGVtYSB4bWxu
+cz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9uLXN5c3RlbS9z
+Y2hlbWEiLz4NCjwvU2NoZW1hRmlsZT4=}
+}
+},
+{"B",0},
+{"B",1},
+{"#",acf6192e-81ca-46ef-93a6-5a6968b78663,
+{9,
+{2,
+{0,"Имя",
+{"Pattern"},"",0},
+{1,"Настройки",
+{"Pattern"},"",0}
+},
+{2,2,0,0,1,1,
+{1,1,
+{2,0,2,
+{"S","Основная"},
+{"S","<Settings xmlns=""http://v8.1c.ru/8.1/data-composition-system/settings"" xmlns:dcscor=""http://v8.1c.ru/8.1/data-composition-system/core"" xmlns:style=""http://v8.1c.ru/8.1/data/ui/style"" xmlns:sys=""http://v8.1c.ru/8.1/data/ui/fonts/system"" xmlns:v8=""http://v8.1c.ru/8.1/data/core"" xmlns:v8ui=""http://v8.1c.ru/8.1/data/ui"" xmlns:web=""http://v8.1c.ru/8.1/data/ui/colors/web"" xmlns:win=""http://v8.1c.ru/8.1/data/ui/colors/windows"" xmlns:xs=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"">
+	<selection>
+		<item xsi:type=""SelectedItemField"">
+			<field>Количество</field>
+		</item>
+		<item xsi:type=""SelectedItemField"">
+			<field>Стоимость</field>
+		</item>
+	</selection>
+	<filter>
+		<item xsi:type=""FilterItemComparison"">
+			<left xsi:type=""dcscor:Field"">Документ.Дата</left>
+			<comparisonType>LessOrEqual</comparisonType>
+			<right xsi:type=""v8:StandardBeginningDate"">
+				<v8:variant xsi:type=""v8:StandardBeginningDateVariant"">Custom</v8:variant>
+				<v8:date>2016-12-31T23:59:59</v8:date>
+			</right>
+		</item>
+		<item xsi:type=""FilterItemComparison"">
+			<left xsi:type=""dcscor:Field"">Документ.Дата</left>
+			<comparisonType>GreaterOrEqual</comparisonType>
+			<right xsi:type=""v8:StandardBeginningDate"">
+				<v8:variant xsi:type=""v8:StandardBeginningDateVariant"">Custom</v8:variant>
+				<v8:date>2016-01-01T00:00:00</v8:date>
+			</right>
+		</item>
+	</filter>
+	<item xsi:type=""StructureItemGroup"">
+		<groupItems>
+			<item xsi:type=""GroupItemField"">
+				<field>Подразделение</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type=""xs:dateTime"">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type=""xs:dateTime"">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+			<item xsi:type=""GroupItemField"">
+				<field>Комментарий</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type=""xs:dateTime"">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type=""xs:dateTime"">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type=""OrderItemAuto""/>
+		</order>
+		<selection>
+			<item xsi:type=""SelectedItemAuto""/>
+		</selection>
+		<item xsi:type=""StructureItemGroup"">
+			<groupItems>
+				<item xsi:type=""GroupItemField"">
+					<field>Документ</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type=""xs:dateTime"">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type=""xs:dateTime"">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type=""OrderItemAuto""/>
+			</order>
+			<selection>
+				<item xsi:type=""SelectedItemAuto""/>
+			</selection>
+			<item xsi:type=""StructureItemGroup"">
+				<groupItems>
+					<item xsi:type=""GroupItemField"">
+						<field>Номенклатура</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type=""xs:dateTime"">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type=""xs:dateTime"">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+				</groupItems>
+				<order>
+					<item xsi:type=""OrderItemAuto""/>
+				</order>
+				<selection>
+					<item xsi:type=""SelectedItemAuto""/>
+				</selection>
+			</item>
+		</item>
+	</item>
+</Settings>"},0}
+},1,0},
+{0,0}
+}
+},
+{"S","Основная"},
+{"B",1},0}
+}
+}
+},7,1}
+}
+}
